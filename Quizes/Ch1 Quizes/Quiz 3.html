@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz 3 FORM</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<!-- Name -->
+<form>
+	<label for="username1"> First Name: </label>
+		<input id="username type="text" name="First" placeholder="John" required>
+	<label for="username2"> Last Name</label>
+		<input id="username2" type="text" name="Last" placeholder="Doe">
+<!-- Gender -->
+<div>
+	<label for="Male">Male: </label>
+		<input id="Male" type="radio" name="Gender" value="Male">
+	<label for="Female">Female: </label>
+		<input id="Female" type="radio" name="Gender" value="Female">
+	<label for="Other">Other: </label>
+		<input id="Other" type="radio" name="Gender" value="Other">
+</div>
+<!-- Email -->
+<div>
+	<label for="email">Email:</label>
+	<input id="email" name="Email" type="email" required="true" placeholder="Email">
+	<label for="password">Password:</label>
+	<input id="password" type="password" required="True" placeholder="Password" minlength="5" maxlength="10" ="">
+</div>
+<!-- Birthday -->
+<div>
+	<label for="Date"> Birthday: </label>
+		<select> Month
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+		<select> Day
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select> Year
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+		</select>
+</div>
+<!-- Terms -->
+<div>
+	<label>Do you agree to these terms?</label>
+	<input type="checkbox" required>
+</div>
+<div>
+<button>Submit</button>
+</div>
+</form>
+
+</body>
+</html>
